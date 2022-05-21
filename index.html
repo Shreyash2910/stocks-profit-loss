@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Stock: Profit or Loss</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <header>
+                        <nav>
+                            <h3>
+                                <a href="https://shreyash29-portfolio.netlify.app/" target="_blank" class="nav-link">Shreyash Srivastava</a>
+                            </h3>
+                            <h3>
+                                <a href="https://github.com/Shreyash2910/stocks-profit-loss" target="_blank" class="nav-link">GtiHub Repo</a>
+                            </h3>
+                        </nav>
+                    </header>
+            <main class="main container profit-loss-theme">
+                <!-- SECTION INPUT -->
+                <section class="section input">
+                    <h1 class="hero">Check Profit/ Loss of Your Stock</h1>
+                    <label for="purchase-price">Purchase Price</label>
+                    <input type="number" min="1" name="purchase-price" id="purchase-price" class="purchase-price">
+
+                    <label for="stock-quantity">Stock Quantity</label>
+                    <input type="number" min="1" name="stock-quantity" id="stock-quantity" class="stock-quantity">
+
+                    <label for="current-price">Current Stock Price</label>
+                    <input type="number" min="1" name="current-price" id="current-price" class="current-price">
+
+                    <button class="btn-check">Check</button>
+                </section>
+
+                <!-- SECTION OUTPUT -->
+                <section class="section output">
+                    <h3 class="message display-none"></h3>
+                    <!-- <img src="./assets/svg-loss.png" alt=""> -->
+                </section>
+            </main>
+            <footer>
+                <ul class="social-links">
+                    <h1 class="white" > Connect with me! 🤝 </h1>
+                    <li>
+                        <a href="https://github.com/Shreyash2910/" target="_blank">
+                            <img src="https://img.icons8.com/doodle/48/000000/github.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Shreyash_2910" target="_blank">
+                            <img src="https://img.icons8.com/plasticine/100/000000/twitter.png" width="50" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/shreyash_2910_2003/" target="_blank">
+                            <img src="https://img.icons8.com/plasticine/100/000000/instagram-new.png" width="50" />
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
