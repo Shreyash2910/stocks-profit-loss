@@ -66,7 +66,7 @@ function properValues(stockQuantity, purchasePrice, stockPrice) {
         return false;
     }
 
-    else if(Number.parseInt(stockQuantity) <=0 || Number.parseInt(purchasePrice) <= 0 || Number.parseInt(stockPrice) <= 0) {
+    else if(Number.parseInt(stockQuantity) <=0 || Number.parseFloat(purchasePrice) <= 0 || Number.parseFloat(stockPrice) <= 0) {
         message.className = "message error";
         message.innerText = 'Please enter values greater than 0';
         return false;
